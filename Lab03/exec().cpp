@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     printf ("My PID is %d\n",getpid());
     printf("Using *execl* to ecec");
     //execlp("ls","ls","-1",NULL);
-    //execle("/bin/ls","ls","-1","--color",NULL,env);
+    //execle("/bin/ls","ls","-l","--color",NULL,env);
     //execv("/bin/ls",arg);
     //execve("/bin/ls",arg,env);
     //execle("/home/rongding/.CLion2018.1/config/scratches/scraout",NULL);
